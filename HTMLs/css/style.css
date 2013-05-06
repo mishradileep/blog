@@ -1,0 +1,40 @@
+/* CSS Document */
+html, body, div, span, object, iframe, h1, h2, .container section h3, .container section h6, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video{margin:0px; padding:0px;}
+
+body{background:url(../images/top-bg.jpg) repeat-x; font-family: "Lucida Grande",sans-serif; font-size: 12px;}
+
+#main-wrapper{width:990px; margin:0 auto; border:0px solid #FF0000;}
+#main-wrapper .site-slogan{height:20px; color:#FFFFFF; padding:5px 0; line-height:20px;}
+
+#header-wrapper{height:131px;}
+#header-wrapper .logo{width:300px; float:left; height:59px; font-size:48px; color:#FFFFFF; line-height:60px; padding:36px 0;}
+#header-wrapper .search-box{width:178px; float:right; height:26px; padding:53px 0; border: 0px solid #FF0000; text-align:right}
+#header-wrapper .search-box .search-box-wrapper{background:url(../images/search-bg.png) no-repeat; height:26px; width:170px; padding:0 5px;}
+#header-wrapper .search-box .search-box-wrapper input[type="text"]{width:150px; border:0; height:24px; font-family: "Lucida Grande",sans-serif; font-size: 12px; color:#C6C6C6}
+#header-wrapper .search-box .search-box-wrapper input[type="image"]{margin:-3px 0;}
+
+#content-wrapper{margin:50px 0; background-color:#FF0000; clear:both; }
+#content-wrapper .left-content{width:615px; padding-right:20px; float:left;}
+
+#content-wrapper .article{overflow:hidden; margin-top:50px;}
+#content-wrapper .article:first-child{margin-top:0px;}
+#content-wrapper .article .article-content{width:495px; margin-right:20px; float:left;}
+#content-wrapper .article .article-img{width:100px; float:left;}
+
+h2.article-title a{font-size:30px; line-height:34px; letter-spacing:-2px; color:#2F2F2F; text-decoration:none}
+h2.article-title a:hover{color:#406895;}
+
+.article-img img{border:1px solid #E1E1E1;}
+p.post-details{color:#A2A2A2; font-size:14px; margin:20px 0;}
+p.post-details span{color:#2F2F2F}
+p.post-details a{color:#406895; text-decoration:none}
+p.post-details a:hover{text-decoration:underline}
+div.article-teaser{color:#959595; line-height:19px; font-size:14px;}
+
+div.buttons{width:366px; font-size:0px; height:35px; margin:25px 0;}
+div.buttons .comments{width:158px; background:url(../images/button-comment.png) no-repeat 0 -2px; height:35px; cursor: pointer; float:left; margin-right:50px;}
+div.buttons div:hover{background-position:0 -37px;}
+div.buttons .continue{width:158px; background:url(../images/button-continue.png) no-repeat 0 -2px; height:35px; cursor: pointer; float:left}
+
+#content-wrapper .right-content{width:335px; padding-left:20px;  float:left;}
+.right-content .latest-popular-comments{background-color:#F9F9F9;}
