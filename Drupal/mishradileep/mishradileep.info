@@ -1,0 +1,29 @@
+name = mishraDileep
+description = Base Theme for mishraDileep Blog.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/style.css
+
+regions[top_header] = Top Header
+regions[header_left] = Header Left
+regions[search_right] = Header Right
+
+regions[featured] = Featured
+regions[content] = Content
+regions[right_sidebar_top] = Right Sidebar Top
+regions[right_sidebar_middle] = Right Sidebar Middle
+regions[right_sidebar_bottom] = Right Sidebar Bottom
+regions[right_sidebar_other] = Right Sidebar Other
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer] = Footer
+
+; Information added by drupal.org packaging script on 2013-04-03
+version = "7.22"
+project = "drupal"
+datestamp = "1365027013"
+
